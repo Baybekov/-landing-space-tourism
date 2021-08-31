@@ -568,8 +568,55 @@ foreignObject{
     margin-left: auto;
 }
 
+.footer {
+    background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 100px 0 150px;
+}
 
+.footer__inner {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.footer__text {
+    width: 165px;
+    margin-right: 50px;
+}
+
+.footer__text p + p {
+    margin-top: 50px;
+}
+
+.footer__menu {
+    list-style: none;
+    width: 120px;
+    margin-right: 95px;
+
+}
+
+.footer__links {
+    list-style: none;
+    width: 165px;
+}
+
+.footer__links-item,
+.footer__menu-item {
+    margin-bottom: 20px;
+}
+
+.footer__links-link,
+.footer__menu-link {
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.footer__links-link:hover,
+.footer__menu-link:hover {
+    color: #CB0E0E;
+}
 
 
 
